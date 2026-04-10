@@ -1,23 +1,27 @@
 parallel-jobs = 1
 
-[YouTube]
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-patches-source = "anddea/revanced-patches"
+[YouTube-Morphe]
+app-name = "YouTube"
+patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
-integrations-source = "anddea/revanced-integrations"
-arch = "arm64-v8a"
+rv-brand = "Morphe"
 build-mode = "both"
-included-patches = "'Ambient mode control' 'Bypass URL redirects' 'Change player flyout menu toggles' 'Custom header for YouTube' 'Disable forced auto audio tracks' 'Disable haptic feedback' 'Disable sign in to TV popup' 'Disable splash animation' 'Fullscreen components' 'GmsCore support' 'Hide accessibility controls dialog' 'Hide action buttons' 'Hide ads' 'Hide feed components' 'Hide layout components' 'Hide player flyout menu' 'Hook download actions' 'Miniplayer' 'Navigation bar components' 'Open links externally' 'Overlay buttons' 'Player components' 'Remove background playback restrictions' 'Remove viewer discretion dialog' 'Return YouTube Dislike' 'Sanitize sharing links' 'Seekbar components' 'Settings for YouTube' 'Shorts components' 'SponsorBlock' 'Theme' 'Video playback'"
-exclusive-patches = true
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+excluded-patches = "'Alternative thumbnails' 'Bypass image region restrictions' 'Captions' 'Change form factor' 'Change start page' 'Check watch history domain name resolution' 'Custom branding' 'Custom player overlay opacity' 'Disable DRC audio' 'Disable QUIC protocol' 'Disable Shorts resuming on startup' 'Disable double tap actions' 'Disable layout updates' 'Disable rolling number animations' 'Disable video codecs' 'Double tap to seek' 'Enable debugging' 'Exit fullscreen mode' 'Hide related videos' 'Hide timestamp' 'Loop video' 'Open system share sheet' 'Open videos fullscreen' 'Override YouTube Music actions' 'Play all' 'Reload video' 'Shorts autoplay' 'Spoof app version' 'Spoof device dimensions' 'Spoof video streams' 'Swipe controls'"
 
-[Music]
+
+[Music-Morphe]
+app-name = "Music"
+patches-source = "MorpheApp/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "Morphe"
+build-mode = "both"
+arch = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
-patches-source = "anddea/revanced-patches"
-cli-source = "MorpheApp/morphe-cli"
-integrations-source = "anddea/revanced-integrations"
-arch = "arm64-v8a"
-build-mode = "both"
-included-patches = "'Bitrate default value' 'Certificate spoof' 'Custom header for YouTube Music' 'Disable Cairo splash animation' 'Disable music video in album' 'Flyout menu components' 'GmsCore support' 'Hide action bar components' 'Hide ads' 'Navigation bar components' 'Remove background playback restrictions' 'Remove viewer discretion dialog' 'Return YouTube Dislike' 'Sanitize sharing links' 'Settings for YouTube Music' 'SponsorBlock' 'Video playback'"
+included-patches = "'Bypass certificate checks' 'Change header' 'Enable exclusive audio playback' 'Force original audio' 'GmsCore support' 'Hide 'Get Music Premium'' 'Hide music video ads' 'Navigation bar' 'Remove background playback restrictions' 'Sanitize sharing links' 'Theme'"
 exclusive-patches = true
+
