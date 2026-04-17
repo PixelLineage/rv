@@ -1,6 +1,6 @@
 {
-  "version": "v20.14.43 (patches 5.45.0)",
-  "versionCode": 1,
-  "zipUrl": "https://github.com/PixelLineage/rv/releases/download/1/youtube-revanced-magisk-v20.14.43-arm64-v8a.zip",
+  "version": "v20.05.46 (patches 4.0.0.mpp)",
+  "versionCode": 4,
+  "zipUrl": "https://github.com/PixelLineage/rv/releases/download/4/youtube-revanced-module-v20.05.46-all.zip",
   "changelog": "https://raw.githubusercontent.com/PixelLineage/rv/update/build.md"
 }
